@@ -17,15 +17,22 @@ The overall architecture of the TARS framework is illustrated below.
 
 Follow the steps below to set up the environment and reproduce the results.
 
-### 1. Preprocess Data
+### 1. Environment Setup
+First, create the conda environment from the `environment.yml` file.
 
-First, run the preprocessing script to prepare the dataset.
+```bash
+conda env create -f environment.yml
+conda activate tars_rec
+```
+
+### 2. Preprocess Data
+Next, run the preprocessing script to prepare the dataset.
 
 ```bash
 ./preprocess.sh
 ```
 
-### 2. Train Model
+### 3. Train Model
 
 Once the data is preprocessed, use the following command to start training the TARS model.
 
@@ -33,14 +40,14 @@ Once the data is preprocessed, use the following command to start training the T
 ./train.sh
 ```
 
-### 3. Run Inference
+### 4. Run Inference
 After the model is trained, you can generate recommendations using the inference script.
 
 ```bash
 ./inference.sh
 ```
 
-### 4. Evaluation
+### 5. Evaluation
 To evaluate the performance of the generated recommendations, run the evaluation script.
 
 ```bash
