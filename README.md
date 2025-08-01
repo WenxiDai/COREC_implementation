@@ -10,7 +10,7 @@ We design and implement TARS, a comprehensive token-augmented re-ranking framewo
 
 The overall architecture of the TARS framework is illustrated below.
 
-![TARS Framework Pipeline](img/TARS_pipeline.pdf)
+![TARS Framework Pipeline](img/TARS_pipeline.jpg)
 
 
 ## How to Run the Code
