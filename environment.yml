@@ -1,4 +1,4 @@
-name: tars_rec
+name: corec_rec
 
 channels:
   - pytorch
