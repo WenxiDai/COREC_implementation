@@ -59,7 +59,6 @@ To evaluate the performance of the generated recommendations, run the evaluation
 If you use COREC or find our work helpful, please cite:
 
 ```
-```bibtex
 @misc{dai2025tokencontrolledrerankingsequentialrecommendation,
       title={Token-Controlled Re-ranking for Sequential Recommendation via LLMs}, 
       author={Wenxi Dai and Wujiang Xu and Pinhuan Wang and Dimitris N. Metaxas},
